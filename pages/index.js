@@ -29,15 +29,11 @@ export default function Home() {
       </Head>
 
 
-      <div classNameName='container'>
+      <div className='container'>
       
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
-
-            <Link href="/">
-              <a className="navbar-item"></a>
-            </Link>
-            
+            <a className="navbar-item">
               
 
               <Image
@@ -82,13 +78,13 @@ export default function Home() {
           </div>
         </nav>
 
-      <div classNameName="columns mt-2">
+      <div className="columns mt-2">
 
-      <div classNameName="column ">
+      <div className="column ">
       
       <main>
 
-      <div classNameName="content is-medium">
+      <div className="content is-medium">
         
 
         <Image
@@ -106,11 +102,11 @@ export default function Home() {
 
       <section className="section has-background-info-light ">
 
-      <div classNameName="columns ">
+      <div className="columns ">
       
-      <div classNameName="column ">
+      <div className="column ">
 
-        <h1 classNameName="title is-1 mt-5" >
+        <h1 className="title is-1 mt-5" >
            
           
           <span className="has-text-danger"> MAKU</span>
@@ -121,20 +117,20 @@ export default function Home() {
         
         <div className="content">
 
-        <p classNameName="is-size-4">
+        <p className="is-size-4">
         Agua Maku es ligera, baja en Sodio, debidamente tratada para cuidar tu salud.
         
           
         </p>
 
-        <p classNameName="is-size-4">
+        <p className="is-size-4">
           
-          Nuestro compromiso es brindarles a los consumidores Trujillanos un <strong> producto de calidad </strong> y un servicio abastecimiento eficiente y puntual.
+          Nuestro compromiso es brindarle a los consumidores Trujillanos un <strong> producto de calidad </strong> y un servicio abastecimiento eficiente y puntual.
           
             
           </p>
 
-          <p classNameName="is-size-4">
+          <p className="is-size-4">
           
             Contamos con los procesos más modernos de tratamiento de agua como es la <strong> ósmosis inversa y ozonización</strong>, para brindar a nuestros clientes un producto de calidad.
             
@@ -154,7 +150,7 @@ export default function Home() {
       </div>
 
 
-      <div classNameName="column ">
+      <div className="column ">
 
 
         
@@ -180,9 +176,9 @@ export default function Home() {
     <section className="section">
 
 
-      <div classNameName="column  mb-2">
+      <div className="column  mb-2">
 
-        <h2 classNameName="title is-2 has-text-centered"> Todos los Productos</h2>
+        <h2 className="title is-2 has-text-centered"> Todos los Productos</h2>
 
 
       </div>
@@ -190,11 +186,11 @@ export default function Home() {
 
 
 
-      <div classNameName="columns ">
+      <div className="columns ">
 
  
       
-        <div classNameName="column">
+        <div className="column">
 
         
           <div className="box">
@@ -212,9 +208,9 @@ export default function Home() {
   
         </div>
   
-        <div classNameName="column ">
+        <div className="column ">
   
-          <div classNameName="box">
+          <div className="box">
           <Image
           src={bidon}
           alt="Agua de mesa maku en bidon, trujillo"
@@ -228,9 +224,9 @@ export default function Home() {
   
         </div>
 
-        <div classNameName="column ">
+        <div className="column ">
   
-          <div classNameName="box">
+          <div className="box">
           <Image
           src={recarga}
           alt="Recarga de Agua de mesa maku, trujillo"
@@ -250,13 +246,13 @@ export default function Home() {
 
       
       
-        <div classNameName="columns ">
+        <div className="columns ">
 
  
       
-          <div classNameName="column ">
+          <div className="column ">
     
-            <div classNameName="box"> 
+            <div className="box"> 
             <Image
             src={promo}
             alt="Agua de mesa maku, trujillo"
@@ -268,9 +264,9 @@ export default function Home() {
         </div>
           </div>
     
-          <div classNameName="column ">
+          <div className="column ">
     
-            <div classNameName="box"> 
+            <div className="box"> 
             <Image
             src={docena}
             alt="Agua de mesa maku, trujillo"
@@ -283,9 +279,9 @@ export default function Home() {
           </div>
         </div>
   
-          <div classNameName="column ">
+          <div className="column ">
     
-            <div classNameName="box"> 
+            <div className="box"> 
             <Image
             src={dispensador}
             alt="Agua de mesa maku, trujillo"
@@ -307,25 +303,23 @@ export default function Home() {
 
         <section className="section has-background-info-light">
 
-          <div classNameName="columns is-mobile">
+          <div className="columns is-mobile">
           
           
     
     
-          <div classNameName="column is-full-mobile">
+          <div className="column is-full-mobile">
 
-          <div classNameName="content">
+          <div className="content">
     
           <h3 className="title is-2">Llámanos:</h3>
 
-          <Link href="tel:927580020">
-            <a className="title is-2 has-text-info">927 580 020</a>
-          </Link>
           
+          <a className="title is-2 has-text-info" href="tel:927580020">927 580 020</a>
           <p></p>
           <p className="is-size-5">Nuestras presentaciones de bidón de 20 litros y galonera de 7 litros</p>
-          <p className="is-size-5" >Delivery gratis a toda la ciudad de Trujillo, atendemos a casas, negocios y empresas.</p>
-          <p classNameName="is-size-5"> Registro Sanitario: P0604322NLACRNR </p>
+          <p className="is-size-5" >Delivery gratis a toda la ciudad de Trujillo, antendemos a casas, negocios y empresas.</p>
+          <p className="is-size-5"> Registro Sanitario: P0604322NLACRNR </p>
 
           <p className="is-size-5"> <strong>Pedidos corporativos:</strong> nortprosac@gmail.com </p>
 
@@ -355,11 +349,11 @@ export default function Home() {
 
       </div>
 
-      <footer classNameName="footer">
+      <footer className="footer">
 
         <div className="columns">
         <div  className="column is-desktop">
-        <div classNameName="content has-text-centered">
+        <div className="content has-text-centered">
           <p className="is-size-5" >
             <strong> Corporación Nortpro S.A.C - 2022 </strong>, todos los derechos reservados 
           </p>

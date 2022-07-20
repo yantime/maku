@@ -69,7 +69,7 @@ export default function Home() {
             <div className="navbar-end">
               <div className="navbar-item">
                 <div className="buttons">
-                  <a className="button is-success is-outlined" href="https://api.whatsapp.com/send?phone=51927580020&text=Hola%2C%20a%20cuanto%20esta%20la%20recarga%20de%20agua%3F" target="_blank" >
+                  <a className="button is-success is-outlined" href="https://api.whatsapp.com/send?phone=51927580020&text=Hola%2C%20a%20cuanto%20esta%20la%20recarga%20de%20agua%3F" target="_blank"  rel="noopener noreferrer" >
                     Whatsapp: 927 580 020
                   </a>
                 </div>
@@ -139,7 +139,7 @@ export default function Home() {
 
             
 
-            <a href="https://api.whatsapp.com/send?phone=51927580020&text=Hola%2C%20a%20cuanto%20esta%20la%20recarga%20de%20agua%3F" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=51927580020&text=Hola%2C%20a%20cuanto%20esta%20la%20recarga%20de%20agua%3F" target="_blank"  rel="noopener noreferrer">
               <button className="button is-medium is-success is-responsive"  >Escribir al Whatsapp</button>
           </a>
 
